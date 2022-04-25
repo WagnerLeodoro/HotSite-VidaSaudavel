@@ -1,18 +1,17 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
     <title>@ViewData["Title"] - Hotsite</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-           <h1>Hotsite</h1>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid mt-3 w-100">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
@@ -25,4 +24,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
