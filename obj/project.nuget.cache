@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lGQYr35urrQ+wEFr1ISBjtfB0LtOXIf/06FIT/TkLZ5ihfRH/e21N+auqPTS4Z+LO3biA3vBUidsSgjLwhhjuQ==",
+  "dgSpecHash": "5/rkVL58/d11E1eYCVTE7Ew6dwM2W7DiaxJtHrwx2/r6bD0n45D69klUUpHyaGNgwj+kC5vi1Ru8yKHPYTJGHg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\Hotsite.csproj",
+  "projectFilePath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wagne\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

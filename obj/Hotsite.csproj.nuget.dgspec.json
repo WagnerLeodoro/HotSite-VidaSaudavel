@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\Hotsite.csproj": {}
+    "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\Hotsite.csproj": {
+    "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\Hotsite.csproj",
+        "projectUniqueName": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj",
         "projectName": "Hotsite",
-        "projectPath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\Hotsite.csproj",
+        "projectPath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj",
         "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\HotSite\\obj\\",
+        "outputPath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,7 +1,10 @@
-﻿@model Interesse
+﻿@using Hotsite.Models
+@model Interesse
+
 @{
     ViewData["Title"] = "Hotsite";
 }
+
 <div class="container">
     <div class="row">
         <div class="col-md-6 text-content">
@@ -16,40 +19,64 @@
                 legendos at
                 vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
             </p>
-        </div>
-        <div class="col-md-6">
-            <img class="img-fluid" src="~/img/fitness.png" alt="pessoa se exercitando" />
-        </div>
 
-    </div>
-    <div class="row contato">
-        <div class="col-md-6">
-            <h2>Entre em contato!:</h2>
-            <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
-            <div class="form jumbotron p-3">
-                <form action="/Home/Cadastrar" method="POST">
-                    <div class="form-group">
-                        <label asp-for="Nome">Nome:</label>
-                        <input class="form-control" asp-for="Nome" />
+            <div class="form jumbotron p-4">
+                <h2>Fique em contato!</h2>
+                <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+
+                <form id="frmCadastro" method="POST">
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" asp-for="Nome">Nome:</label>
+                        <div class="col-sm-10">
+                            <input id="nome" class="form-control" asp-for="Nome" />
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="Email">Email:</label>
-                        <input class="form-control" asp-for="Email" />
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" asp-for="Email">Email:</label>
+                        <div class="col-sm-10">
+                            <input id="email" class="form-control" asp-for="Email" />
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="Mensagem">Mensagem (opcional):</label>
-                        <textarea class="form-control" asp-for="Mensagem"></textarea>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label" asp-for="Mensagem">Mensagem (opcional):</label>
+                        <div class="col-sm-10">
+                            <textarea id="mensagem" class="form-control" asp-for="Mensagem"></textarea>
+                        </div>
                     </div>
-                    <div>
+                    <div class="d-flex justify-content-end">
                         <input class="btn btn-primary" type="submit" value="Enviar" />
                     </div>
                 </form>
             </div>
         </div>
-        <div class="col-md-6 modal-links">
-            <a href="#">Agenda de eventos</a>
-            <a href="#">Dicas de vida saudável</a>
-            <a href="#">Apoiadores</a>
+        <div class="col-md-6">
+
+            <div class="row">
+                <img class="img-fluid" src="~/img/fitness.png" alt="pessoa se exercitando" />
+            </div>
+
+            <div class="row">
+                <div class="modal-links">
+                    <a class="col-sm-4" href="#">
+                        <img class="img-fluid" src="~/img/agenda.png" alt="calendário" />
+                        <p>
+                            Agenda de Eventos
+                        </p>
+                    </a>
+                    <a class="col-sm-4" href="#">
+                        <img class="img-fluid" src="~/img/tips.png" alt="calendário" />
+                        <p>
+                            Dicas de Vida Saudável
+                        </p>
+                    </a>
+                    <a class="col-sm-4" href="#">
+                        <img class="img-fluid" src="~/img/partners.png" alt="calendário" />
+                        <p>
+                            Apoiadores
+                        </p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
