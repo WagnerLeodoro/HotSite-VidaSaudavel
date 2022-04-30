@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Hotsite.Models
 {
-    public class DatabaseContext: DbContext
+    public class DatabaseContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

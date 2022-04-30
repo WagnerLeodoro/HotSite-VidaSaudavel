@@ -11,6 +11,7 @@ namespace Hotsite.Controllers
 {
     public class HomeController : Controller
     {
+        private DatabaseContext dbContext = new DatabaseContext();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -28,8 +29,7 @@ namespace Hotsite.Controllers
         {
             DatabaseService dbs = new DatabaseService();
             dbs.CadastraInteresse(cad);
-            return View("Index",cad);
+            return View("Index", cad);
         }
-
     }
 }

@@ -43,6 +43,22 @@ body {
 }
 .modal-links a:hover { transform: scale(1.1); }
 
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.eventName {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.companyLogo {
+  width: 100%;
+}
 
 .footer {
   width: 100%;

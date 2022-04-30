@@ -57,26 +57,148 @@
 
             <div class="row">
                 <div class="modal-links">
-                    <a class="col-sm-4" href="#">
-                        <img class="img-fluid" src="~/img/agenda.png" alt="calendário" />
-                        <p>
-                            Agenda de Eventos
-                        </p>
+                    <a data-toggle="modal" data-target="#agenda" href="#">
+                        <img class="img-fluid" src="~/img/agenda.png" alt="Calendario">
+                        <p>Agenda de eventos</p>
                     </a>
-                    <a class="col-sm-4" href="#">
-                        <img class="img-fluid" src="~/img/tips.png" alt="calendário" />
-                        <p>
-                            Dicas de Vida Saudável
-                        </p>
+                    <a data-toggle="modal" data-target="#dicas" href="#">
+                        <img class="img-fluid" src="~/img/tips.png" alt="Calendario">
+                        <p>Dicas de vida saudável</p>
                     </a>
-                    <a class="col-sm-4" href="#">
-                        <img class="img-fluid" src="~/img/partners.png" alt="calendário" />
-                        <p>
-                            Apoiadores
-                        </p>
+                    <a data-toggle="modal" data-target="#parceiros" href="#">
+                        <img class="img-fluid" src="~/img/partners.png" alt="Calendario">
+                        <p>Parceiros</p>
                     </a>
                 </div>
             </div>
+
+            @* Modal View *@
+            <div class="modal fade" id="agenda" tabindex="-1" role="dialog" aria-labelledby="agendaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="agendaLabel">Agenda</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="eventName">
+                                <h5>30/04/2022 - Evento 1</h5>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                            <div class="eventName">
+                                <h5>30/04/2022 - Evento 2</h5>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                            <div class="eventName">
+                                <h5>30/04/2022 - Evento 3</h5>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="dicas" tabindex="-1" role="dialog" aria-labelledby="agendaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="agendaLabel">Dicas de Vida Saudável</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus eligendi sapiente
+                                    doloribus. Soluta vitae eaque expedita accusantium facere molestiae, saepe ad
+                                    corporis
+                                    sint. Ea nobis officia laudantium temporibus dolore!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="parceiros" tabindex="-1" role="dialog" aria-labelledby="agendaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="agendaLabel">Paceiros</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body ml-4">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-3 w-25">
+                                    <img class="companyLogo" src="~/img/partners.png" alt="company logo">
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Empresa 1</h5>
+                                    <small>descrição</small>
+                                </div>
+                            </div>
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-3 w-25">
+                                    <img class="companyLogo" src="~/img/partners.png" alt="company logo">
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Empresa 2</h5>
+                                    <small>descrição</small>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-3 w-25">
+                                    <img class="companyLogo" src="~/img/partners.png" alt="company logo">
+                                </div>
+                                <div class="col-md-9">
+                                    <h5>Empresa 3</h5>
+                                    <small>descrição</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
