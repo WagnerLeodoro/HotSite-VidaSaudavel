@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5/rkVL58/d11E1eYCVTE7Ew6dwM2W7DiaxJtHrwx2/r6bD0n45D69klUUpHyaGNgwj+kC5vi1Ru8yKHPYTJGHg==",
+  "dgSpecHash": "tRhW05BP8yzJXDYpE/vvJ3cZTZmjs5a9gkqxPaLWUlVemvz+Zo5NfpH6ZTnQ9q9IThXsGYV1Fc8fekjAGGH6yg==",
   "success": true,
   "projectFilePath": "D:\\Documents\\Cursos On-line\\curso-ipi-senac\\Disciplinas\\Publicar e Testar Apps Web\\Hotsite\\Hotsite.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,13 @@
     "C:\\Users\\wagne\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog\\2.5.0\\serilog.2.5.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.extensions.logging\\2.0.2\\serilog.extensions.logging.2.0.2.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.extensions.logging.file\\2.0.0\\serilog.extensions.logging.file.2.0.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.formatting.compact\\1.0.0\\serilog.formatting.compact.1.0.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.sinks.async\\1.1.0\\serilog.sinks.async.1.1.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.sinks.file\\3.2.0\\serilog.sinks.file.3.2.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\serilog.sinks.rollingfile\\3.3.0\\serilog.sinks.rollingfile.3.3.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
