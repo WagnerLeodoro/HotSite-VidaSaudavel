@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using Microsoft.Extensions.Logging;
 namespace Hotsite
 {
     public class Startup
@@ -26,7 +26,7 @@ namespace Hotsite
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -48,6 +48,8 @@ namespace Hotsite
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            loggerFactory.AddFile("Logs/log-{Date}.txt", LogLevel.Trace);
         }
     }
 }
