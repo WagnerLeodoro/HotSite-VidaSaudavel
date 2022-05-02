@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Hotsite.Models;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace Hotsite.Controllers
 {
     public class HomeController : Controller
     {
-        private DatabaseContext dbContext = new DatabaseContext();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
